@@ -4,3 +4,8 @@ make a directory and name accordingly.(e.g. mkdir myIsotrack/)
 Walk into the directory (cd myIsotrack)
 Now you need to create a CMSSW area by cmsrel(generally the latest although unstable version of CMSSW). To do this you need to run the following commands.
 
+export SCRAM_ARCH=slc6_amd64_gcc530
+scram list 
+These two lines will provide you the list of all CMSSW versions(latest) available.
+Now,
+cmsrel SSW-version
