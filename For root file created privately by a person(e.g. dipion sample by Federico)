@@ -1,1 +1,6 @@
+Login to lxplus
+Go to work directory(cd ../../../work/d/dbhowmik/public)
+make a directory and name accordingly.(e.g. mkdir myIsotrack/)
+Walk into the directory (cd myIsotrack)
+Now you need to create a CMSSW area by cmsrel(generally the latest although unstable version of CMSSW). To do this you need to run the following commands.
 
