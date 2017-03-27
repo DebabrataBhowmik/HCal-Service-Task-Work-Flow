@@ -15,6 +15,8 @@ cd CMSSW_9_0_X_2017-02-24-2300/src
 cmsenv
 git cmd-merge-topic 17605
 
-Then add the code of the analyzer and do
+Then add the code of the analyzer(i.e. copy the directory called "Callibration" from previous workspace) and do
 
 scram b -j 4
+
+Now, enter /Calibration/HcalAlCaRecoProducers/test
