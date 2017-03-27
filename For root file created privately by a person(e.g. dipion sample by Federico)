@@ -9,3 +9,8 @@ scram list
 These two lines will provide you the list of all CMSSW versions(latest) available.
 Now,
 cmsrel CMSSW-version (e.g. cmsrel CMSSW_9_0_X_2017-02-24-2300)
+cd CMSSW_9_0_X_2017-02-24-2300/src
+cmsenv
+git cmd-merge-topic 17605
+Then add the code of the analyzer and do
+scram b -j 4
