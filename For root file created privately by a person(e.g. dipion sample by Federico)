@@ -8,4 +8,4 @@ export SCRAM_ARCH=slc6_amd64_gcc530
 scram list 
 These two lines will provide you the list of all CMSSW versions(latest) available.
 Now,
-cmsrel SSW-version
+cmsrel CMSSW-version (e.g. cmsrel CMSSW_9_0_X_2017-02-24-2300)
